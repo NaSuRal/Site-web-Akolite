@@ -1,0 +1,109 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+html{
+    background-color: bisque;
+    
+}
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    border: 5px solid black;
+    margin: 60px;
+    padding: 0 40px 0 0;
+    width: 700px;
+    justify-content: space-between;
+    background-color: #ffcf66;
+}
+nav h1{
+    color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    margin-left: 55px;
+    cursor: pointer;
+}
+nav .onglets{
+    margin-top: 3px;
+    display:flex;
+    justify-self: start;
+}
+nav .onglets a{
+    text-decoration: none;
+    color: #000000;
+    margin-right: 15px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    padding-bottom: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+section{
+    background-color: #ffcf66;
+    width: 80%;
+    height: 800PX;
+    border: 5px solid black;
+    border-radius: 10px;
+    
+    
+}
+section h3{
+    
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px;
+}
+
+.choixdossier img{
+        margin-left: 20px;
+        margin-right: auto;
+        margin-top: 20px;
+
+}
+.choixdossier{ 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+}
+.text{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+.sectiondossier{
+    padding: 20px;
+    background-color: #fff;
+    margin: 40px;
+    border-radius: 10px;
+    border: #000000;
+
+
+}
+.sectiondossier a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sectiondossier h4{
+    margin-left: -10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.section1{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
